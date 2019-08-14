@@ -19,7 +19,7 @@ module.exports = {
   getAll,
   getOne,
   createSkill,
-  delete: deleteSkill,
+  deleteOne,
   update,
 };
 
@@ -35,7 +35,7 @@ function createSkill(newSkill) {
   devSkills.push(newSkill);
 }
 
-function deleteSkill(idx) {
+function deleteOne(idx) {
   devSkills.splice(idx, 1);
 }
 

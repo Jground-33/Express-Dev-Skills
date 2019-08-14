@@ -33,7 +33,7 @@ function editSkill(req, res) {
 }
 
 function deleteSkill(req, res) {
-    Skill.delete(req.params.id);
+    Skill.deleteOne(req.params.id);
     res.redirect('/skills');
 }
 
