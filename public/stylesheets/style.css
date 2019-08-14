@@ -1,0 +1,19 @@
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.delete-form button {
+  color: white; 
+  background-color: darkred;
+}
+
+li {
+  list-style: none;
+}
+
+edit-form {
+  display: inline-block;
+  margin-right: 10px;
+}
